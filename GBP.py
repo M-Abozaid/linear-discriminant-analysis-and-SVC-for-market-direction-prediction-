@@ -6,7 +6,7 @@ from sklearn.svm import SVC
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.pipeline import Pipeline
 import matplotlib.pyplot as plt
-plt.style.use('ggplot')
+plt.style.use('seaborn')
 
 def make_Xy():
     data = pd.read_csv('GBPUSD60.csv', names=['date', 'time', 'open', 'high',
